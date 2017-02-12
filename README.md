@@ -11,3 +11,6 @@ Please see the tutorial: http://openimaj.org/tutorial
 Instructions for source compilation can be found here: https://github.com/openimaj/openimaj/wiki/Compiling-OpenIMAJ-from-Source
 Please note that you probably don't want to do this unless you intend on adding new features or making changes to the source code; precompiled jars of release versions are available from Maven Central, and regular snapshots (built automatically on when code is pushed to the github repository) are available from http://snapshots.openimaj.org
 
+## Use with Eclipse (imagingbook)
+
+See http://openimaj.org/tutorial/getting-started-with-openimaj-using-maven.html
