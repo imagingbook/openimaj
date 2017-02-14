@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TwitterPreprocessingTool</name>
+	<comment>Tool for applying a text preprocessing pipeline to twitter tweets. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>twitter</project>
+		<project>core</project>
+		<project>core-citation</project>
+		<project>core-aop-support</project>
+		<project>nlp</project>
+		<project>core-rdf</project>
+		<project>ImprovedArgs4J</project>
+		<project>core-image</project>
+		<project>core-math</project>
+		<project>MatrixLib</project>
+		<project>clustering</project>
+		<project>core-experiment</project>
+		<project>IREval</project>
+		<project>nearest-neighbour</project>
+		<project>core-feature</project>
+		<project>machine-learning</project>
+		<project>test-resources</project>
+		<project>sioc</project>
+		<project>core-tool</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

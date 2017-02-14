@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>slideshow</name>
+	<comment>A library for creating slideshows and presentations that can contain
+		interactive demos that utilise all OpenIMAJ components. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>core-image</project>
+		<project>core</project>
+		<project>core-citation</project>
+		<project>core-aop-support</project>
+		<project>core-math</project>
+		<project>MatrixLib</project>
+		<project>image-processing</project>
+		<project>core-experiment</project>
+		<project>IREval</project>
+		<project>core-feature</project>
+		<project>core-video</project>
+		<project>core-audio</project>
+		<project>animation</project>
+		<project>JTransforms</project>
+		<project>core-video-capture</project>
+		<project>xuggle-video</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

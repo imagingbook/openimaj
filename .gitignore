@@ -17,26 +17,26 @@ target/
 maven-eclipse.xml
 
 # -----  Eclipse Related Ignores ---------
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
+# .metadata
+# bin/
+# tmp/
+# *.tmp
+# *.bak
+# *.swp
+# *~.nib
+# local.properties
+# .settings/
+# .loadpath
+# .recommenders
 
 # Eclipse Core
-.project
+# .project
 
 # External tool builders
-.externalToolBuilders/
+# .externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
-*.launch
+# *.launch
 
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject

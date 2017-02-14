@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>audio-processing</name>
+	<comment>Implementations of various audio processors (e.g. multichannel conversion, volume change, ...). NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>core</project>
+		<project>core-citation</project>
+		<project>core-aop-support</project>
+		<project>core-experiment</project>
+		<project>IREval</project>
+		<project>core-math</project>
+		<project>MatrixLib</project>
+		<project>core-audio</project>
+		<project>core-feature</project>
+		<project>JTransforms</project>
+		<project>xuggle-video</project>
+		<project>core-video</project>
+		<project>core-image</project>
+		<project>animation</project>
+		<project>machine-learning</project>
+		<project>nearest-neighbour</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

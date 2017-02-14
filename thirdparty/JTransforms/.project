@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>JTransforms</name>
+	<comment>JTransforms is the first, open source, multithreaded FFT library written 
+      in pure Java. Currently, four types of transforms are available: 
+      Discrete Fourier Transform (DFT), Discrete Cosine Transform (DCT), 
+      Discrete Sine Transform (DST) and Discrete Hartley Transform (DHT). 
+      The code is derived from General Purpose FFT Package written by 
+      Takuya Ooura and from Java FFTPack written by Baoshe Zhang. This 
+      version has been modified to daemonize threads and stop any application 
+      using the library waiting after execution has finished, and is based on
+      revision 29 of the svn version of the code from 2014-05-18. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
