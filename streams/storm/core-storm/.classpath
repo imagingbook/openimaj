@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/media/jai-core/1.1.3/jai-core-1.1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/core-rdf"/>
+	<classpathentry kind="src" path="/core"/>
+	<classpathentry kind="src" path="/core-citation"/>
+	<classpathentry kind="src" path="/core-aop-support"/>
+	<classpathentry kind="var" path="M2_REPO/org/jbibtex/jbibtex/1.0.2/jbibtex-1.0.2.jar" sourcepath="M2_REPO/org/jbibtex/jbibtex/1.0.2/jbibtex-1.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/jbibtex/jbibtex/1.0.2/jbibtex-1.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar" sourcepath="M2_REPO/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar" sourcepath="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.6.3/jsoup-1.6.3.jar" sourcepath="M2_REPO/org/jsoup/jsoup/1.6.3/jsoup-1.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/jsoup/jsoup/1.6.3/jsoup-1.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/net/sf/trove4j/trove4j/3.0.2/trove4j-3.0.2.jar" sourcepath="M2_REPO/net/sf/trove4j/trove4j/3.0.2/trove4j-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/net/sf/trove4j/trove4j/3.0.2/trove4j-3.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/12.0/guava-12.0.jar" sourcepath="M2_REPO/com/google/guava/guava/12.0/guava-12.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/google/guava/guava/12.0/guava-12.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/colt/colt/1.2.0/colt-1.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar" sourcepath="M2_REPO/concurrent/concurrent/1.3.4/concurrent-1.3.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2.jar" sourcepath="M2_REPO/commons-io/commons-io/2.2/commons-io-2.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0.jar" sourcepath="M2_REPO/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/commons/commons-vfs2/2.0/commons-vfs2-2.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4.jar" sourcepath="M2_REPO/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/maven/scm/maven-scm-api/1.4/maven-scm-api-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4.jar" sourcepath="M2_REPO/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/maven/scm/maven-scm-provider-svnexe/1.4/maven-scm-provider-svnexe-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4.jar" sourcepath="M2_REPO/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/maven/scm/maven-scm-provider-svn-commons/1.4/maven-scm-provider-svn-commons-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/regexp/regexp/1.3/regexp-1.3.jar" sourcepath="M2_REPO/regexp/regexp/1.3/regexp-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17.jar" sourcepath="M2_REPO/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/esotericsoftware/kryo/kryo/2.17/kryo-2.17-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar" sourcepath="M2_REPO/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/ow2/asm/asm/4.0/asm-4.0.jar" sourcepath="M2_REPO/org/ow2/asm/asm/4.0/asm-4.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar" sourcepath="M2_REPO/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar" sourcepath="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/vigna/dsi/unimi/it/jal/20031117/jal-20031117.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.8.4/ant-1.8.4.jar" sourcepath="M2_REPO/org/apache/ant/ant/1.8.4/ant-1.8.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/ant/ant/1.8.4/ant-1.8.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.jar" sourcepath="M2_REPO/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/httpcomponents/httpclient/4.5/httpclient-4.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.1.3/httpcore-4.1.3.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.1.3/httpcore-4.1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.5/commons-codec-1.5.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/uk/com/robust-it/cloning/1.9.1/cloning-1.9.1.jar" sourcepath="M2_REPO/uk/com/robust-it/cloning/1.9.1/cloning-1.9.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/uk/com/robust-it/cloning/1.9.1/cloning-1.9.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame/2.6.4/sesame-2.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/ImprovedArgs4J"/>
+	<classpathentry kind="src" path="/core-image"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar" sourcepath="M2_REPO/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/jeuclid/jeuclid-core/3.1.9/jeuclid-core-3.1.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-svg-dom/1.7/batik-svg-dom-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-svg-dom/1.7/batik-svg-dom-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-anim/1.7/batik-anim-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-anim/1.7/batik-anim-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-awt-util/1.7/batik-awt-util-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-awt-util/1.7/batik-awt-util-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-util/1.7/batik-util-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-util/1.7/batik-util-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-dom/1.7/batik-dom-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-dom/1.7/batik-dom-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-css/1.7/batik-css-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-css/1.7/batik-css-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-ext/1.7/batik-ext-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-ext/1.7/batik-ext-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar" sourcepath="M2_REPO/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-xml/1.7/batik-xml-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-xml/1.7/batik-xml-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/batik-parser/1.7/batik-parser-1.7.jar" sourcepath="M2_REPO/org/apache/xmlgraphics/batik-parser/1.7/batik-parser-1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xmlgraphics/xmlgraphics-commons/1.3.1/xmlgraphics-commons-1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-core/1.2.2/snuggletex-core-1.2.2.jar" sourcepath="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-core/1.2.2/snuggletex-core-1.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-upconversion/1.2.2/snuggletex-upconversion-1.2.2.jar" sourcepath="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-upconversion/1.2.2/snuggletex-upconversion-1.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/saxon/saxon9/9.1.0.8/saxon9-9.1.0.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/saxon/saxon9-dom/9.1.0.8/saxon9-dom-9.1.0.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-jeuclid/1.2.2/snuggletex-jeuclid-1.2.2.jar" sourcepath="M2_REPO/uk/ac/ed/ph/snuggletex/snuggletex-jeuclid/1.2.2/snuggletex-jeuclid-1.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/flickr4java/flickr4java/2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4/flickr4java-2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4.jar" sourcepath="M2_REPO/com/flickr4java/flickr4java/2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4/flickr4java-2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/flickr4java/flickr4java/2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4/flickr4java-2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/scribe/scribe/1.3.5/scribe-1.3.5.jar" sourcepath="M2_REPO/org/scribe/scribe/1.3.5/scribe-1.3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/scribe/scribe/1.3.5/scribe-1.3.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/axis/axis/1.4/axis-1.4.jar" sourcepath="M2_REPO/org/apache/axis/axis/1.4/axis-1.4-sources.jar"/>
+	<classpathentry kind="src" path="/core-math"/>
+	<classpathentry kind="var" path="M2_REPO/gov/nist/math/jama/1.0.3/jama-1.0.3.jar" sourcepath="M2_REPO/gov/nist/math/jama/1.0.3/jama-1.0.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/gov/nist/math/jama/1.0.3/jama-1.0.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/la4j/la4j/0.4.0/la4j-0.4.0.jar" sourcepath="M2_REPO/org/la4j/la4j/0.4.0/la4j-0.4.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/la4j/la4j/0.4.0/la4j-0.4.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/1.0.2/mtj-1.0.2.jar" sourcepath="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/1.0.2/mtj-1.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.2/mtj-1.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar" sourcepath="M2_REPO/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar" sourcepath="M2_REPO/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/jniloader/1.1/jniloader-1.1.jar" sourcepath="M2_REPO/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar" sourcepath="M2_REPO/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/jafama/JaFaMa/1.2/JaFaMa-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jgrapht/jgrapht/0.8.2/jgrapht-0.8.2.jar"/>
+	<classpathentry kind="src" path="/MatrixLib"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar" sourcepath="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/net/sourceforge/jmatio/jmatio/1.2/jmatio-1.2.jar" sourcepath="M2_REPO/net/sourceforge/jmatio/jmatio/1.2/jmatio-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/net/sourceforge/jmatio/jmatio/1.2/jmatio-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/gov/sandia/foundry/gov-sandia-cognition-common-core/3.3.0/gov-sandia-cognition-common-core-3.3.0.jar" sourcepath="M2_REPO/gov/sandia/foundry/gov-sandia-cognition-common-core/3.3.0/gov-sandia-cognition-common-core-3.3.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/gov/sandia/foundry/gov-sandia-cognition-common-core/3.3.0/gov-sandia-cognition-common-core-3.3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/thoughtworks/xstream/xstream/1.4.3/xstream-1.4.3.jar" sourcepath="M2_REPO/com/thoughtworks/xstream/xstream/1.4.3/xstream-1.4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/thoughtworks/xstream/xstream/1.4.3/xstream-1.4.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar" sourcepath="M2_REPO/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/gov/sandia/foundry/gov-sandia-cognition-learning-core/3.3.0/gov-sandia-cognition-learning-core-3.3.0.jar" sourcepath="M2_REPO/gov/sandia/foundry/gov-sandia-cognition-learning-core/3.3.0/gov-sandia-cognition-learning-core-3.3.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/gov/sandia/foundry/gov-sandia-cognition-learning-core/3.3.0/gov-sandia-cognition-learning-core-3.3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-math3/3.3/commons-math3-3.3.jar" sourcepath="M2_REPO/org/apache/commons/commons-math3/3.3/commons-math3-3.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/commons/commons-math3/3.3/commons-math3-3.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sanselan/sanselan/0.97-incubator/sanselan-0.97-incubator.jar" sourcepath="M2_REPO/org/apache/sanselan/sanselan/0.97-incubator/sanselan-0.97-incubator-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/sanselan/sanselan/0.97-incubator/sanselan-0.97-incubator-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/caffeineowl/bezier-utils/1.0.0-RELEASE/bezier-utils-1.0.0-RELEASE.jar" sourcepath="M2_REPO/com/caffeineowl/bezier-utils/1.0.0-RELEASE/bezier-utils-1.0.0-RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/caffeineowl/bezier-utils/1.0.0-RELEASE/bezier-utils-1.0.0-RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/sun/media/jai-codec/1.1.3/jai-codec-1.1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/imageio/imageio-jpeg/3.0-rc5/imageio-jpeg-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/imageio/imageio-jpeg/3.0-rc5/imageio-jpeg-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/imageio/imageio-jpeg/3.0-rc5/imageio-jpeg-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/imageio/imageio-core/3.0-rc5/imageio-core-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/imageio/imageio-core/3.0-rc5/imageio-core-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/imageio/imageio-core/3.0-rc5/imageio-core-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/common/common-io/3.0-rc5/common-io-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/common/common-io/3.0-rc5/common-io-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/common/common-io/3.0-rc5/common-io-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/common/common-lang/3.0-rc5/common-lang-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/common/common-lang/3.0-rc5/common-lang-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/common/common-lang/3.0-rc5/common-lang-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/common/common-image/3.0-rc5/common-image-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/common/common-image/3.0-rc5/common-image-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/common/common-image/3.0-rc5/common-image-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twelvemonkeys/imageio/imageio-metadata/3.0-rc5/imageio-metadata-3.0-rc5.jar" sourcepath="M2_REPO/com/twelvemonkeys/imageio/imageio-metadata/3.0-rc5/imageio-metadata-3.0-rc5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twelvemonkeys/imageio/imageio-metadata/3.0-rc5/imageio-metadata-3.0-rc5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/args4j/args4j/2.0.16/args4j-2.0.16.jar" sourcepath="M2_REPO/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/args4j/args4j/2.0.16/args4j-2.0.16-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/joda-time/joda-time/2.1/joda-time-2.1.jar" sourcepath="M2_REPO/joda-time/joda-time/2.1/joda-time-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/eu/larkc/csparql/CSPARQL/0.7.4/CSPARQL-0.7.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/antlr/3.2/antlr-3.2.jar" sourcepath="M2_REPO/org/antlr/antlr/3.2/antlr-3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar" sourcepath="M2_REPO/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-sdb/1.3.5/jena-sdb-1.3.5.jar" sourcepath="M2_REPO/org/apache/jena/jena-sdb/1.3.5/jena-sdb-1.3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/jena/jena-sdb/1.3.5/jena-sdb-1.3.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-core/2.7.3/jena-core-2.7.3.jar" sourcepath="M2_REPO/org/apache/jena/jena-core/2.7.3/jena-core-2.7.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/jena/jena-core/2.7.3/jena-core-2.7.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-iri/0.9.3/jena-iri-0.9.3.jar" sourcepath="M2_REPO/org/apache/jena/jena-iri/0.9.3/jena-iri-0.9.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/jena/jena-iri/0.9.3/jena-iri-0.9.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0.jar" sourcepath="M2_REPO/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/xerces/xercesImpl/2.10.0/xercesImpl-2.10.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jena/jena-arq/2.9.3/jena-arq-2.9.3.jar" sourcepath="M2_REPO/org/apache/jena/jena-arq/2.9.3/jena-arq-2.9.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/jena/jena-arq/2.9.3/jena-arq-2.9.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.8.2/junit-4.8.2.jar" sourcepath="M2_REPO/junit/junit/4.8.2/junit-4.8.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/junit/junit/4.8.2/junit-4.8.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.2.2.RELEASE/spring-core-3.2.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.2.2.RELEASE/spring-core-3.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/springframework/spring-core/3.2.2.RELEASE/spring-core-3.2.2.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/nativelibs4java/bridj/0.7-20140918/bridj-0.7-20140918.jar" sourcepath="M2_REPO/com/nativelibs4java/bridj/0.7-20140918/bridj-0.7-20140918-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/nativelibs4java/bridj/0.7-20140918/bridj-0.7-20140918-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/google/android/tools/dx/1.7/dx-1.7.jar" sourcepath="M2_REPO/com/google/android/tools/dx/1.7/dx-1.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/google/android/tools/dx/1.7/dx-1.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/finagle-kestrel/3.0.0/finagle-kestrel-3.0.0.jar" sourcepath="M2_REPO/com/twitter/finagle-kestrel/3.0.0/finagle-kestrel-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/finagle-kestrel/3.0.0/finagle-kestrel-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/finagle-core/3.0.0/finagle-core-3.0.0.jar" sourcepath="M2_REPO/com/twitter/finagle-core/3.0.0/finagle-core-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/finagle-core/3.0.0/finagle-core-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/util-hashing/3.0.0/util-hashing-3.0.0.jar" sourcepath="M2_REPO/com/twitter/util-hashing/3.0.0/util-hashing-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/util-hashing/3.0.0/util-hashing-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/util-core/3.0.0/util-core-3.0.0.jar" sourcepath="M2_REPO/com/twitter/util-core/3.0.0/util-core-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/util-core/3.0.0/util-core-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1.jar" sourcepath="M2_REPO/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/scala-lang/scala-library/2.8.1/scala-library-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty/3.4.0.Alpha1/netty-3.4.0.Alpha1.jar" sourcepath="M2_REPO/io/netty/netty/3.4.0.Alpha1/netty-3.4.0.Alpha1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/util-collection/3.0.0/util-collection-3.0.0.jar" sourcepath="M2_REPO/com/twitter/util-collection/3.0.0/util-collection-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/util-collection/3.0.0/util-collection-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/twitter/finagle-memcached/3.0.0/finagle-memcached-3.0.0.jar" sourcepath="M2_REPO/com/twitter/finagle-memcached/3.0.0/finagle-memcached-3.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/twitter/finagle-memcached/3.0.0/finagle-memcached-3.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/storm/storm/0.8.0/storm-0.8.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/clojure/1.4.0/clojure-1.4.0.jar" sourcepath="M2_REPO/org/clojure/clojure/1.4.0/clojure-1.4.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/clojure/clojure/1.4.0/clojure-1.4.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/storm/libthrift7/0.7.0/libthrift7-0.7.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/netflix/curator/curator-framework/1.0.1/curator-framework-1.0.1.jar" sourcepath="M2_REPO/com/netflix/curator/curator-framework/1.0.1/curator-framework-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/netflix/curator/curator-framework/1.0.1/curator-framework-1.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/com/netflix/curator/curator-client/1.0.1/curator-client-1.0.1.jar" sourcepath="M2_REPO/com/netflix/curator/curator-client/1.0.1/curator-client-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/netflix/curator/curator-client/1.0.1/curator-client-1.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3.jar" sourcepath="M2_REPO/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/apache/zookeeper/zookeeper/3.3.3/zookeeper-3.3.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar" sourcepath="M2_REPO/jline/jline/0.9.94/jline-0.9.94-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/backtype/jzmq/2.1.0/jzmq-2.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/compojure/compojure/0.6.4/compojure-0.6.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0.jar" sourcepath="M2_REPO/org/clojure/core.incubator/0.1.0/core.incubator-0.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0.jar" sourcepath="M2_REPO/org/clojure/tools.macro/0.1.0/tools.macro-0.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/clout/clout/0.4.1/clout-0.4.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ring/ring-core/0.3.10/ring-core-0.3.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar" sourcepath="M2_REPO/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/hiccup/hiccup/0.3.6/hiccup-0.3.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ring/ring-jetty-adapter/0.3.11/ring-jetty-adapter-0.3.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ring/ring-servlet/0.3.11/ring-servlet-0.3.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar" sourcepath="M2_REPO/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar" sourcepath="M2_REPO/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3.jar" sourcepath="M2_REPO/org/clojure/tools.logging/0.2.3/tools.logging-0.2.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1.jar" sourcepath="M2_REPO/org/clojure/math.numeric-tower/0.0.1/math.numeric-tower-0.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/storm/carbonite/1.5.0/carbonite-1.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.9/snakeyaml-1.9.jar" sourcepath="M2_REPO/org/yaml/snakeyaml/1.9/snakeyaml-1.9-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/org/yaml/snakeyaml/1.9/snakeyaml-1.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/storm/tools.cli/0.2.2/tools.cli-0.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/disruptor/disruptor/2.10.1/disruptor-2.10.1.jar" sourcepath="M2_REPO/com/googlecode/disruptor/disruptor/2.10.1/disruptor-2.10.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/googlecode/disruptor/disruptor/2.10.1/disruptor-2.10.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/storm/jgrapht/0.8.3/jgrapht-0.8.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.1/gson-2.1.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.1/gson-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Maven/.m2/repository/com/google/code/gson/gson/2.1/gson-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
